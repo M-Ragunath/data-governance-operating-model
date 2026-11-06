@@ -12,13 +12,12 @@
 | Transparency · Integrity · Accountability · Value | Plan · Define · Protect · Share · Improve | Council · Owners · Stewards · Custodians · Consumers | Trust · Risk reduction · Better decisions · Agility |
 
 <details>
-<summary><strong>✨ Visual guide — expand to view the three diagrams</strong></summary>
+<summary><strong>✨ Visual guide - expand to view the three diagrams</strong></summary>
 
 <br>
 
 **01 · Data Governance Operating Model**
 
-<a href="./Data-Governance-Operating-Model.svg"><img src="./Data-Governance-Operating-Model.svg" alt="Data Governance Operating Model" style="width:100%;height:auto;"></a>
 <a href="./Data-Governance-Operating-Model.svg"><img src="./Data-Governance-Operating-Model.svg" alt="Data Governance Operating Model" style="width:100%;height:auto;"></a>
 
 **02 · Cross-cutting Governance Capabilities**
