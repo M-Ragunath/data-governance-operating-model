@@ -1,0 +1,681 @@
+<mxfile host="65bd71144e">
+    <diagram id="data-governance-operating-model" name="Data Governance Operating Model">
+        <mxGraphModel dx="720" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1080" pageHeight="1450" math="0" shadow="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=60;fontColor=#F45100;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="The Data Governance&lt;br&gt;Operating Model" vertex="1">
+                    <mxGeometry height="175" width="705" x="30" y="5" as="geometry"/>
+                </mxCell>
+                <mxCell id="tagline" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=12;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Driving Smarter Outcomes with AI, Cloud &amp;amp; Data." vertex="1">
+                    <mxGeometry height="47" width="650" x="32" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="credit-line" parent="1" style="fillColor=#333333;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="1" width="355" x="330" y="228" as="geometry"/>
+                </mxCell>
+                <mxCell id="purpose" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=25;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="A practical framework to ensure &lt;b&gt;trusted data&lt;/b&gt;, drive&lt;br&gt;accountability and deliver &lt;b&gt;business value.&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="73" width="670" x="32" y="253" as="geometry"/>
+                </mxCell>
+                <mxCell id="trusted-platform" parent="1" style="shape=rhombus;fillColor=#E8F3FF;strokeColor=#B9DAF9;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="62" width="230" x="765" y="159" as="geometry"/>
+                </mxCell>
+                <mxCell id="trusted-data" parent="1" style="shape=cylinder;size=18;fillColor=#1676DC;strokeColor=#0D5CC4;strokeWidth=2;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="88" width="78" x="842" y="91" as="geometry"/>
+                </mxCell>
+                <mxCell id="enabler-govern" parent="1" style="ellipse;fillColor=#F0F8FE;strokeColor=#C6E5F8;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="48" width="48" x="776" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="govern-symbol" parent="1" style="shape=mxgraph.basic.shield;html=1;fillColor=#008FFF;strokeColor=#008FFF;fontColor=#FFFFFF;fontSize=18;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="31" width="24" x="788" y="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="label-govern" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=12;fontColor=#12478C;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Govern" vertex="1">
+                    <mxGeometry height="22" width="78" x="761" y="69" as="geometry"/>
+                </mxCell>
+                <mxCell id="trusted-govern" edge="1" parent="1" source="enabler-govern" style="endArrow=none;strokeColor=#008FFF;strokeWidth=1.5;dashed=1;shadow=1;textShadow=1;rounded=0;" target="trusted-data">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="enabler-people" parent="1" style="ellipse;fillColor=#F0F8FE;strokeColor=#C6E5F8;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="48" width="48" x="951" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="people-symbol" parent="1" style="shape=actor;fillColor=#F45100;strokeColor=#F45100;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="30" width="23" x="964" y="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="label-people" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=12;fontColor=#12478C;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="People" vertex="1">
+                    <mxGeometry height="22" width="78" x="936" y="69" as="geometry"/>
+                </mxCell>
+                <mxCell id="trusted-people" edge="1" parent="1" source="enabler-people" style="endArrow=none;strokeColor=#008FFF;strokeWidth=1.5;dashed=1;shadow=1;textShadow=1;rounded=0;" target="trusted-data">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="enabler-technology" parent="1" style="ellipse;fillColor=#F0F8FE;strokeColor=#C6E5F8;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="48" width="48" x="718" y="137" as="geometry"/>
+                </mxCell>
+                <mxCell id="technology-symbol" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontColor=#35A925;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="&amp;#9881;" vertex="1">
+                    <mxGeometry height="38" width="38" x="723" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="label-technology" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=12;fontColor=#12478C;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Technology" vertex="1">
+                    <mxGeometry height="22" width="78" x="703" y="186" as="geometry"/>
+                </mxCell>
+                <mxCell id="trusted-technology" edge="1" parent="1" source="enabler-technology" style="endArrow=none;strokeColor=#008FFF;strokeWidth=1.5;dashed=1;shadow=1;textShadow=1;rounded=0;" target="trusted-data">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="enabler-process" parent="1" style="ellipse;fillColor=#F0F8FE;strokeColor=#C6E5F8;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="48" width="48" x="1005" y="137" as="geometry"/>
+                </mxCell>
+                <mxCell id="process-symbol" parent="1" style="shape=note;html=1;fillColor=#FFFFFF;strokeColor=#F45100;fontColor=#F45100;fontSize=18;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="31" width="24" x="1018" y="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="label-process" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=12;fontColor=#12478C;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Process" vertex="1">
+                    <mxGeometry height="22" width="78" x="990" y="186" as="geometry"/>
+                </mxCell>
+                <mxCell id="trusted-process" edge="1" parent="1" source="enabler-process" style="endArrow=none;strokeColor=#008FFF;strokeWidth=1.5;dashed=1;shadow=1;textShadow=1;rounded=0;" target="trusted-data">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="enabler-measure" parent="1" style="ellipse;fillColor=#F0F8FE;strokeColor=#C6E5F8;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="48" width="48" x="860" y="244" as="geometry"/>
+                </mxCell>
+                <mxCell id="measure-symbol" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=13;fontColor=#35A925;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="&amp;#9632;&amp;#9632;&amp;#9632;" vertex="1">
+                    <mxGeometry height="36" width="38" x="865" y="248" as="geometry"/>
+                </mxCell>
+                <mxCell id="label-measure" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=12;fontColor=#12478C;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Measure" vertex="1">
+                    <mxGeometry height="22" width="78" x="845" y="293" as="geometry"/>
+                </mxCell>
+                <mxCell id="trusted-measure" edge="1" parent="1" source="enabler-measure" style="endArrow=none;strokeColor=#008FFF;strokeWidth=1.5;dashed=1;shadow=1;textShadow=1;rounded=0;" target="trusted-data">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation" parent="1" style="rounded=0;arcSize=9;fillColor=#FFFFFF;strokeColor=#F45100;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="128" width="1044" x="18" y="346" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-banner" parent="1" style="shape=chevron;html=1;fillColor=#F45100;strokeColor=#F45100;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#FFFFFF;align=left;spacingLeft=12;shadow=1;textShadow=1;rounded=0;" value="FOUNDATION" vertex="1">
+                    <mxGeometry height="128" width="178" x="18" y="346" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-icon-transparency" parent="1" style="ellipse;html=1;fillColor=#FFF0E5;strokeColor=none;fontColor=#F45100;fontFamily=Arial;fontSize=33;shadow=1;textShadow=1;rounded=0;" value="&amp;#9673;" vertex="1">
+                    <mxGeometry height="57" width="57" x="205" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-title-transparency" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Transparency" vertex="1">
+                    <mxGeometry height="29" width="150" x="272" y="352" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-description-transparency" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Visible data&lt;br&gt;and decisions" vertex="1">
+                    <mxGeometry height="67" width="150" x="272" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-icon-integrity" parent="1" style="ellipse;html=1;fillColor=#FFF0E5;strokeColor=none;fontColor=#F45100;fontFamily=Arial;fontSize=33;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="57" width="57" x="437" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-title-integrity" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Integrity" vertex="1">
+                    <mxGeometry height="29" width="120" x="504" y="352" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-description-integrity" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Accurate &amp;amp;&lt;br&gt;complete data" vertex="1">
+                    <mxGeometry height="67" width="120" x="504" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-icon-accountability" parent="1" style="ellipse;html=1;fillColor=#FFF0E5;strokeColor=none;fontColor=#F45100;fontFamily=Arial;fontSize=33;shadow=1;textShadow=1;rounded=0;" value="&amp;#9678;" vertex="1">
+                    <mxGeometry height="57" width="57" x="640" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-title-accountability" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Accountability" vertex="1">
+                    <mxGeometry height="29" width="150" x="707" y="352" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-description-accountability" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Everyone owns&lt;br&gt;the data they use" vertex="1">
+                    <mxGeometry height="67" width="150" x="707" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-icon-value" parent="1" style="ellipse;html=1;fillColor=#FFF0E5;strokeColor=none;fontColor=#F45100;fontFamily=Arial;fontSize=33;shadow=1;textShadow=1;rounded=0;" value="&amp;#9673;" vertex="1">
+                    <mxGeometry height="57" width="57" x="875" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-title-value" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Value" vertex="1">
+                    <mxGeometry height="29" width="110" x="942" y="352" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-description-value" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Governance&lt;br&gt;drives results" vertex="1">
+                    <mxGeometry height="67" width="110" x="942" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-divider-0" parent="1" style="fillColor=#F45100;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="114" width="1" x="425" y="353" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-divider-1" parent="1" style="fillColor=#F45100;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="114" width="1" x="627" y="353" as="geometry"/>
+                </mxCell>
+                <mxCell id="foundation-divider-2" parent="1" style="fillColor=#F45100;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="114" width="1" x="862" y="353" as="geometry"/>
+                </mxCell>
+                <mxCell id="operating-line" parent="1" style="fillColor=#008FFF;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="2" width="1030" x="25" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="operating-heading" parent="1" style="rounded=0;arcSize=50;html=1;fillColor=#008FFF;strokeColor=#FFFFFF;strokeWidth=5;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="THE OPERATING MODEL" vertex="1">
+                    <mxGeometry height="40" width="348" x="366" y="501" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-plan" parent="1" style="rounded=0;arcSize=7;fillColor=#FFFFFF;strokeColor=#008FFF;strokeWidth=1.7;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="536" width="202" x="18" y="578" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-number-plan" parent="1" style="rounded=0;arcSize=50;fillColor=#008FFF;strokeColor=none;fontFamily=Arial;fontSize=29;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="01" vertex="1">
+                    <mxGeometry height="38" width="140" x="49" y="558" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-pointer-plan" parent="1" style="shape=triangle;direction=south;fillColor=#008FFF;strokeColor=#008FFF;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="15" width="20" x="109" y="592" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-icon-bg-plan" parent="1" style="ellipse;fillColor=#EDF8FF;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="118" width="118" x="60" y="622" as="geometry"/>
+                </mxCell>
+                <mxCell id="plan-icon" parent="1" style="rounded=0;arcSize=8;fillColor=none;strokeColor=#008FFF;strokeWidth=4;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="68" width="59" x="90" y="652" as="geometry"/>
+                </mxCell>
+                <mxCell id="plan-clip" parent="1" style="rounded=0;arcSize=30;fillColor=#FFFFFF;strokeColor=#008FFF;strokeWidth=4;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="15" width="30" x="104" y="643" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-title-plan" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontColor=#008FFF;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="PLAN &amp;amp;&lt;br&gt;GOVERN" vertex="1">
+                    <mxGeometry height="58" width="186" x="26" y="751" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-top-divider-plan" parent="1" style="fillColor=#008FFF;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="1" width="182" x="28" y="818" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-purpose-plan" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Set direction and&lt;br&gt;establish governance&lt;br&gt;structure." vertex="1">
+                    <mxGeometry height="64" width="186" x="26" y="825" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-bottom-divider-plan" parent="1" style="fillColor=#008FFF;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="1" width="182" x="28" y="894" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-plan-0" parent="1" style="ellipse;html=1;fillColor=#008FFF;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="34" y="909" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-plan-0" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Data Governance&lt;br&gt;Council" vertex="1">
+                    <mxGeometry height="48" width="157" x="55" y="904" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-plan-1" parent="1" style="ellipse;html=1;fillColor=#008FFF;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="34" y="958" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-plan-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Policies and&lt;br&gt;Principles" vertex="1">
+                    <mxGeometry height="48" width="157" x="55" y="953" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-plan-2" parent="1" style="ellipse;html=1;fillColor=#008FFF;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="34" y="1007" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-plan-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Roles and&lt;br&gt;Responsibilities" vertex="1">
+                    <mxGeometry height="48" width="157" x="55" y="1002" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-plan-3" parent="1" style="ellipse;html=1;fillColor=#008FFF;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="34" y="1056" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-plan-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Strategy and&lt;br&gt;Roadmap" vertex="1">
+                    <mxGeometry height="48" width="157" x="55" y="1051" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-define" parent="1" style="rounded=0;arcSize=7;fillColor=#FFFFFF;strokeColor=#F45100;strokeWidth=1.7;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="536" width="202" x="228" y="578" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-number-define" parent="1" style="rounded=0;arcSize=50;fillColor=#F45100;strokeColor=none;fontFamily=Arial;fontSize=29;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="02" vertex="1">
+                    <mxGeometry height="38" width="140" x="259" y="558" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-pointer-define" parent="1" style="shape=triangle;direction=south;fillColor=#F45100;strokeColor=#F45100;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="15" width="20" x="319" y="592" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-icon-bg-define" parent="1" style="ellipse;fillColor=#FFF0E5;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="118" width="118" x="270" y="622" as="geometry"/>
+                </mxCell>
+                <mxCell id="define-icon" parent="1" style="shape=note;fillColor=none;strokeColor=#F45100;strokeWidth=3;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="70" width="56" x="301" y="647" as="geometry"/>
+                </mxCell>
+                <mxCell id="define-lines" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=19;fontColor=#F45100;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="&amp;#8212;&lt;br&gt;&amp;#8212;&lt;br&gt;&amp;#8212;" vertex="1">
+                    <mxGeometry height="47" width="40" x="310" y="661" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-title-define" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontColor=#F45100;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="DEFINE &amp;amp;&lt;br&gt;CREATE" vertex="1">
+                    <mxGeometry height="58" width="186" x="236" y="751" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-top-divider-define" parent="1" style="fillColor=#F45100;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="1" width="182" x="238" y="818" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-purpose-define" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Define and onboard&lt;br&gt;trusted data assets." vertex="1">
+                    <mxGeometry height="64" width="186" x="236" y="825" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-bottom-divider-define" parent="1" style="fillColor=#F45100;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="1" width="182" x="238" y="894" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-define-0" parent="1" style="ellipse;html=1;fillColor=#F45100;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="244" y="909" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-define-0" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Data Standards" vertex="1">
+                    <mxGeometry height="48" width="157" x="265" y="894" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-define-1" parent="1" style="ellipse;html=1;fillColor=#F45100;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="244" y="958" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-define-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Data Definitions" vertex="1">
+                    <mxGeometry height="48" width="157" x="265" y="943" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-define-2" parent="1" style="ellipse;html=1;fillColor=#F45100;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="244" y="1007" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-define-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Data Modeling" vertex="1">
+                    <mxGeometry height="48" width="157" x="265" y="993" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-define-3" parent="1" style="ellipse;html=1;fillColor=#F45100;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="244" y="1056" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-define-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Source Management" vertex="1">
+                    <mxGeometry height="48" width="157" x="265" y="1046" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-manage" parent="1" style="rounded=0;arcSize=7;fillColor=#FFFFFF;strokeColor=#35A925;strokeWidth=1.7;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="536" width="202" x="438" y="578" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-number-manage" parent="1" style="rounded=0;arcSize=50;fillColor=#35A925;strokeColor=none;fontFamily=Arial;fontSize=29;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="03" vertex="1">
+                    <mxGeometry height="38" width="140" x="469" y="558" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-pointer-manage" parent="1" style="shape=triangle;direction=south;fillColor=#35A925;strokeColor=#35A925;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="15" width="20" x="529" y="592" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-icon-bg-manage" parent="1" style="ellipse;fillColor=#EBF9E7;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="118" width="118" x="480" y="622" as="geometry"/>
+                </mxCell>
+                <mxCell id="manage-icon" parent="1" style="shape=mxgraph.basic.shield;html=1;fillColor=#DCF6D4;strokeColor=#35A925;strokeWidth=4;fontColor=#35A925;fontSize=42;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="79" width="65" x="507" y="643" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-title-manage" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontColor=#35A925;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="MANAGE &amp;amp;&lt;br&gt;PROTECT" vertex="1">
+                    <mxGeometry height="58" width="186" x="446" y="751" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-top-divider-manage" parent="1" style="fillColor=#35A925;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="1" width="182" x="448" y="818" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-purpose-manage" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Ensure quality, security&lt;br&gt;and compliance." vertex="1">
+                    <mxGeometry height="64" width="186" x="446" y="825" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-bottom-divider-manage" parent="1" style="fillColor=#35A925;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="1" width="182" x="448" y="894" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-manage-0" parent="1" style="ellipse;html=1;fillColor=#35A925;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="454" y="909" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-manage-0" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Data Quality" vertex="1">
+                    <mxGeometry height="48" width="157" x="475" y="893" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-manage-1" parent="1" style="ellipse;html=1;fillColor=#35A925;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="454" y="958" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-manage-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Metadata Management" vertex="1">
+                    <mxGeometry height="48" width="157" x="475" y="952" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-manage-2" parent="1" style="ellipse;html=1;fillColor=#35A925;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="454" y="1007" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-manage-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Access and Privacy" vertex="1">
+                    <mxGeometry height="48" width="157" x="475" y="993" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-manage-3" parent="1" style="ellipse;html=1;fillColor=#35A925;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="454" y="1056" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-manage-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Security and Compliance" vertex="1">
+                    <mxGeometry height="48" width="157" x="475" y="1050" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-share" parent="1" style="rounded=0;arcSize=7;fillColor=#FFFFFF;strokeColor=#F45100;strokeWidth=1.7;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="536" width="202" x="648" y="578" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-number-share" parent="1" style="rounded=0;arcSize=50;fillColor=#F45100;strokeColor=none;fontFamily=Arial;fontSize=29;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="04" vertex="1">
+                    <mxGeometry height="38" width="140" x="679" y="558" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-pointer-share" parent="1" style="shape=triangle;direction=south;fillColor=#F45100;strokeColor=#F45100;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="15" width="20" x="739" y="592" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-icon-bg-share" parent="1" style="ellipse;fillColor=#FFF0E5;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="118" width="118" x="690" y="622" as="geometry"/>
+                </mxCell>
+                <mxCell id="share-icon" parent="1" style="ellipse;html=1;fillColor=#F45100;strokeColor=#F45100;fontColor=#FFFFFF;fontSize=45;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="66" width="66" x="717" y="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-title-share" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontColor=#F45100;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="SHARE &amp;amp;&lt;br&gt;USE" vertex="1">
+                    <mxGeometry height="58" width="186" x="656" y="751" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-top-divider-share" parent="1" style="fillColor=#F45100;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="1" width="182" x="658" y="818" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-purpose-share" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Enable trusted data&lt;br&gt;access and&lt;br&gt;collaboration." vertex="1">
+                    <mxGeometry height="64" width="186" x="656" y="825" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-bottom-divider-share" parent="1" style="fillColor=#F45100;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="1" width="182" x="658" y="894" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-share-0" parent="1" style="ellipse;html=1;fillColor=#F45100;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="664" y="909" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-share-0" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Data Catalog" vertex="1">
+                    <mxGeometry height="48" width="157" x="685" y="893" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-share-1" parent="1" style="ellipse;html=1;fillColor=#F45100;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="664" y="958" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-share-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Data Sharing" vertex="1">
+                    <mxGeometry height="48" width="157" x="685" y="942" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-share-2" parent="1" style="ellipse;html=1;fillColor=#F45100;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="664" y="1007" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-share-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Usage Monitoring" vertex="1">
+                    <mxGeometry height="48" width="157" x="685" y="991" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-share-3" parent="1" style="ellipse;html=1;fillColor=#F45100;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="664" y="1056" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-share-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Training and Awareness" vertex="1">
+                    <mxGeometry height="48" width="157" x="685" y="1051" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-improve" parent="1" style="rounded=0;arcSize=7;fillColor=#FFFFFF;strokeColor=#008FFF;strokeWidth=1.7;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="536" width="202" x="858" y="578" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-number-improve" parent="1" style="rounded=0;arcSize=50;fillColor=#008FFF;strokeColor=none;fontFamily=Arial;fontSize=29;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="05" vertex="1">
+                    <mxGeometry height="38" width="140" x="889" y="558" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-pointer-improve" parent="1" style="shape=triangle;direction=south;fillColor=#008FFF;strokeColor=#008FFF;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="15" width="20" x="949" y="592" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-icon-bg-improve" parent="1" style="ellipse;fillColor=#EDF8FF;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="118" width="118" x="900" y="622" as="geometry"/>
+                </mxCell>
+                <mxCell id="improve-pencil" parent="1" style="rounded=0;arcSize=20;rotation=15;fillColor=#FFFFFF;strokeColor=#008FFF;strokeWidth=3;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="65" width="13" x="954" y="643" as="geometry"/>
+                </mxCell>
+                <mxCell id="improve-ruler" parent="1" style="rounded=0;arcSize=10;fillColor=#FFFFFF;strokeColor=#008FFF;strokeWidth=3;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="13" width="75" x="924" y="708" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-title-improve" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=23;fontColor=#008FFF;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="MEASURE &amp;amp;&lt;br&gt;IMPROVE" vertex="1">
+                    <mxGeometry height="58" width="186" x="866" y="751" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-top-divider-improve" parent="1" style="fillColor=#008FFF;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="1" width="182" x="868" y="818" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-purpose-improve" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Measure performance&lt;br&gt;and drive continuous&lt;br&gt;improvement." vertex="1">
+                    <mxGeometry height="64" width="186" x="866" y="825" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-bottom-divider-improve" parent="1" style="fillColor=#008FFF;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="1" width="182" x="868" y="894" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-improve-0" parent="1" style="ellipse;html=1;fillColor=#008FFF;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="874" y="909" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-improve-0" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="KPIs and Metrics" vertex="1">
+                    <mxGeometry height="48" width="157" x="895" y="895" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-improve-1" parent="1" style="ellipse;html=1;fillColor=#008FFF;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="874" y="958" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-improve-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Issue Management" vertex="1">
+                    <mxGeometry height="48" width="157" x="895" y="944" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-improve-2" parent="1" style="ellipse;html=1;fillColor=#008FFF;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="874" y="1007" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-improve-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Feedback and Insights" vertex="1">
+                    <mxGeometry height="48" width="157" x="895" y="1002" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-check-improve-3" parent="1" style="ellipse;html=1;fillColor=#008FFF;strokeColor=none;fontColor=#FFFFFF;fontSize=11;shadow=1;textShadow=1;rounded=0;" value="&amp;#10003;" vertex="1">
+                    <mxGeometry height="14" width="14" x="874" y="1056" as="geometry"/>
+                </mxCell>
+                <mxCell id="activity-improve-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Continuous Improvement" vertex="1">
+                    <mxGeometry height="48" width="157" x="895" y="1051" as="geometry"/>
+                </mxCell>
+                <mxCell id="people-panel" parent="1" style="rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#35A925;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="145" width="1044" x="18" y="1138" as="geometry"/>
+                </mxCell>
+                <mxCell id="people-banner" parent="1" style="shape=chevron;html=1;fillColor=#35A925;strokeColor=#35A925;fontFamily=Arial;fontSize=22;fontStyle=1;fontColor=#FFFFFF;align=left;spacingLeft=12;shadow=1;textShadow=1;rounded=0;" value="PEOPLE&lt;br&gt;AT THE&lt;br&gt;CENTER" vertex="1">
+                    <mxGeometry height="145" width="170" x="18" y="1138" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-icon-bg-council" parent="1" style="ellipse;fillColor=#E7FADC;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="49" width="49" x="254" y="1148" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-icon-council" parent="1" style="shape=actor;fillColor=#35A925;strokeColor=#35A925;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="30" width="21" x="268" y="1157" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-title-council" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Data Council" vertex="1">
+                    <mxGeometry height="27" width="170" x="195" y="1205" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-description-council" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Provides direction&lt;br&gt;&amp;amp; oversight" vertex="1">
+                    <mxGeometry height="44" width="170" x="195" y="1231" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-icon-bg-owners" parent="1" style="ellipse;fillColor=#E7FADC;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="49" width="49" x="425" y="1148" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-icon-owners" parent="1" style="shape=actor;fillColor=#35A925;strokeColor=#35A925;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="30" width="21" x="439" y="1157" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-title-owners" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Data Owners" vertex="1">
+                    <mxGeometry height="27" width="170" x="366" y="1205" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-description-owners" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Ensure data&lt;br&gt;quality" vertex="1">
+                    <mxGeometry height="44" width="170" x="366" y="1231" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-icon-bg-stewards" parent="1" style="ellipse;fillColor=#E7FADC;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="49" width="49" x="596" y="1148" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-icon-stewards" parent="1" style="shape=actor;fillColor=#35A925;strokeColor=#35A925;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="30" width="21" x="610" y="1157" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-title-stewards" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Data Stewards" vertex="1">
+                    <mxGeometry height="27" width="170" x="537" y="1205" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-description-stewards" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Manage&lt;br&gt;standards" vertex="1">
+                    <mxGeometry height="44" width="170" x="537" y="1231" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-icon-bg-custodians" parent="1" style="ellipse;fillColor=#E7FADC;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="49" width="49" x="767" y="1148" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-icon-custodians" parent="1" style="shape=actor;fillColor=#35A925;strokeColor=#35A925;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="30" width="21" x="781" y="1157" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-title-custodians" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Data Custodians" vertex="1">
+                    <mxGeometry height="27" width="170" x="708" y="1205" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-description-custodians" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Implement&lt;br&gt;controls" vertex="1">
+                    <mxGeometry height="44" width="170" x="708" y="1231" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-icon-bg-consumers" parent="1" style="ellipse;fillColor=#E7FADC;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="49" width="49" x="938" y="1148" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-icon-consumers" parent="1" style="shape=actor;fillColor=#35A925;strokeColor=#35A925;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="30" width="21" x="952" y="1157" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-title-consumers" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontColor=#242424;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Data Consumers" vertex="1">
+                    <mxGeometry height="27" width="170" x="879" y="1205" as="geometry"/>
+                </mxCell>
+                <mxCell id="role-description-consumers" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Use trusted&lt;br&gt;data" vertex="1">
+                    <mxGeometry height="44" width="170" x="879" y="1231" as="geometry"/>
+                </mxCell>
+                <mxCell id="outcomes-panel" parent="1" style="rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#008FFF;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="103" width="1044" x="18" y="1308" as="geometry"/>
+                </mxCell>
+                <mxCell id="outcomes-heading" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#008FFF;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="BUSINESS&lt;br&gt;OUTCOMES" vertex="1">
+                    <mxGeometry height="65" width="145" x="30" y="1325" as="geometry"/>
+                </mxCell>
+                <mxCell id="outcome-divider-0" parent="1" style="fillColor=#008FFF;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="85" width="1" x="180" y="1317" as="geometry"/>
+                </mxCell>
+                <mxCell id="outcome-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Stronger Compliance&lt;br&gt;&amp;amp; Reduced Risk" vertex="1">
+                    <mxGeometry height="72" width="159" x="188" y="1324" as="geometry"/>
+                </mxCell>
+                <mxCell id="outcome-divider-1" parent="1" style="fillColor=#008FFF;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="85" width="1" x="355" y="1317" as="geometry"/>
+                </mxCell>
+                <mxCell id="outcome-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Better Decisions&lt;br&gt;&amp;amp; Insights" vertex="1">
+                    <mxGeometry height="72" width="159" x="363" y="1324" as="geometry"/>
+                </mxCell>
+                <mxCell id="outcome-divider-2" parent="1" style="fillColor=#008FFF;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="85" width="1" x="530" y="1317" as="geometry"/>
+                </mxCell>
+                <mxCell id="outcome-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Efficiency &amp;amp;&lt;br&gt;Cost Savings" vertex="1">
+                    <mxGeometry height="72" width="159" x="538" y="1324" as="geometry"/>
+                </mxCell>
+                <mxCell id="outcome-divider-3" parent="1" style="fillColor=#008FFF;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="85" width="1" x="705" y="1317" as="geometry"/>
+                </mxCell>
+                <mxCell id="outcome-4" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Faster Innovation&lt;br&gt;&amp;amp; Agility" vertex="1">
+                    <mxGeometry height="72" width="159" x="713" y="1324" as="geometry"/>
+                </mxCell>
+                <mxCell id="outcome-divider-4" parent="1" style="fillColor=#008FFF;strokeColor=none;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="85" width="1" x="880" y="1317" as="geometry"/>
+                </mxCell>
+                <mxCell id="outcome-5" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontColor=#242424;fontStyle=0;spacing=2;shadow=1;textShadow=1;rounded=0;" value="Stronger Data&lt;br&gt;Culture &amp;amp; Trust" vertex="1">
+                    <mxGeometry height="72" width="159" x="888" y="1324" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-join-0" parent="1" style="ellipse;fillColor=#008FFF;strokeColor=#FFFFFF;strokeWidth=1;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="49" width="40" x="200" y="661" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-join-1" parent="1" style="ellipse;fillColor=#F45100;strokeColor=#FFFFFF;strokeWidth=1;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="49" width="40" x="410" y="661" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-join-2" parent="1" style="ellipse;fillColor=#35A925;strokeColor=#FFFFFF;strokeWidth=1;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="49" width="40" x="620" y="661" as="geometry"/>
+                </mxCell>
+                <mxCell id="stage-join-3" parent="1" style="ellipse;fillColor=#F45100;strokeColor=#FFFFFF;strokeWidth=1;shadow=1;textShadow=1;rounded=0;" value="" vertex="1">
+                    <mxGeometry height="49" width="40" x="830" y="661" as="geometry"/>
+                </mxCell>
+                <mxCell id="trusted-label" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=16;fontColor=#12478C;fontStyle=1;spacing=2;shadow=1;textShadow=1;rounded=0;" value="TRUSTED DATA" vertex="1">
+                    <mxGeometry height="28" width="180" x="790" y="178" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="cross-cutting-governance-capabilities" name="Cross-cutting Governance Capabilities">
+        <mxGraphModel dx="2381" dy="2026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1320" pageHeight="1980" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="cap-banner" parent="1" style="rounded=1;arcSize=8;fillColor=#193B57;strokeColor=none;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="100" width="1300" x="10" y="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-title" parent="1" style="text;html=1;align=center;fontFamily=Arial;fontSize=34;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="Cross-cutting Governance Capabilities" vertex="1">
+                    <mxGeometry height="48" width="1270" x="25" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-subtitle" parent="1" style="text;html=1;align=center;fontFamily=Arial;fontSize=16;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="Added recommendations | C01-C10 support the original five stages; they are not new lifecycle stages" vertex="1">
+                    <mxGeometry height="27" width="1270" x="25" y="73" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-stage-1" parent="1" style="rounded=1;arcSize=15;html=1;fillColor=#008FFF;strokeColor=none;fontFamily=Arial;fontSize=18;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="01 Plan &amp;amp; Govern" vertex="1">
+                    <mxGeometry height="44" width="250" x="15" y="128" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-stage-2" parent="1" style="rounded=1;arcSize=15;html=1;fillColor=#F45100;strokeColor=none;fontFamily=Arial;fontSize=18;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="02 Define &amp;amp; Create" vertex="1">
+                    <mxGeometry height="44" width="250" x="275" y="128" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-stage-3" parent="1" style="rounded=1;arcSize=15;html=1;fillColor=#35A925;strokeColor=none;fontFamily=Arial;fontSize=18;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="03 Manage &amp;amp; Protect" vertex="1">
+                    <mxGeometry height="44" width="250" x="535" y="128" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-stage-4" parent="1" style="rounded=1;arcSize=15;html=1;fillColor=#F45100;strokeColor=none;fontFamily=Arial;fontSize=18;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="04 Share &amp;amp; Use" vertex="1">
+                    <mxGeometry height="44" width="250" x="795" y="128" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-stage-5" parent="1" style="rounded=1;arcSize=15;html=1;fillColor=#008FFF;strokeColor=none;fontFamily=Arial;fontSize=18;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="05 Measure &amp;amp; Improve" vertex="1">
+                    <mxGeometry height="44" width="250" x="1055" y="128" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-card-01" parent="1" style="rounded=1;arcSize=5;fillColor=#E7F4FD;strokeColor=#4189B8;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="320" width="635" x="15" y="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-badge-01" parent="1" style="rounded=1;arcSize=20;fillColor=#143F66;strokeColor=none;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="C01" vertex="1">
+                    <mxGeometry height="34" width="55" x="27" y="207" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-heading-01" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#143F66;shadow=1;textShadow=1;" value="Federated governance" vertex="1">
+                    <mxGeometry height="42" width="542" x="93" y="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-body-01" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=4;fontFamily=Arial;fontSize=17;fontColor=#143F66;shadow=1;textShadow=1;" value="&lt;b&gt;Purpose:&lt;/b&gt; Balance enterprise consistency with domain autonomy.&lt;br&gt;&lt;br&gt;&lt;b&gt;Applies to:&lt;/b&gt; Plan &amp;amp; Govern; Measure &amp;amp; Improve.&lt;br&gt;&lt;br&gt;&lt;b&gt;Lead / decisions:&lt;/b&gt; Council for enterprise policy; domain owner for delegated domain decisions.&lt;br&gt;&lt;br&gt;&lt;b&gt;Evidence:&lt;/b&gt; Delegation charter; domain map; decision register; escalation and exception records." vertex="1">
+                    <mxGeometry height="240" width="605" x="30" y="256" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-card-02" parent="1" style="rounded=1;arcSize=5;fillColor=#E7F4FD;strokeColor=#4189B8;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="320" width="635" x="670" y="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-badge-02" parent="1" style="rounded=1;arcSize=20;fillColor=#143F66;strokeColor=none;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="C02" vertex="1">
+                    <mxGeometry height="34" width="55" x="682" y="207" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-heading-02" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#143F66;shadow=1;textShadow=1;" value="Risk-based prioritization" vertex="1">
+                    <mxGeometry height="42" width="542" x="748" y="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-body-02" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=4;fontFamily=Arial;fontSize=17;fontColor=#143F66;shadow=1;textShadow=1;" value="&lt;b&gt;Purpose:&lt;/b&gt; Apply effort and controls in proportion to business impact.&lt;br&gt;&lt;br&gt;&lt;b&gt;Applies to:&lt;/b&gt; All five stages.&lt;br&gt;&lt;br&gt;&lt;b&gt;Lead / decisions:&lt;/b&gt; Data owner, with council oversight and specialist advice where required.&lt;br&gt;&lt;br&gt;&lt;b&gt;Evidence:&lt;/b&gt; Critical-data register; risk rubric; tier-to-control mapping; prioritized remediation backlog." vertex="1">
+                    <mxGeometry height="240" width="605" x="685" y="256" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-card-03" parent="1" style="rounded=1;arcSize=5;fillColor=#FFF0E5;strokeColor=#D97C37;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="320" width="635" x="15" y="535" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-badge-03" parent="1" style="rounded=1;arcSize=20;fillColor=#80500D;strokeColor=none;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="C03" vertex="1">
+                    <mxGeometry height="34" width="55" x="27" y="547" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-heading-03" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#80500D;shadow=1;textShadow=1;" value="Data contracts and change control" vertex="1">
+                    <mxGeometry height="42" width="542" x="93" y="545" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-body-03" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=4;fontFamily=Arial;fontSize=17;fontColor=#80500D;shadow=1;textShadow=1;" value="&lt;b&gt;Purpose:&lt;/b&gt; Make producer-consumer expectations explicit and changes predictable.&lt;br&gt;&lt;br&gt;&lt;b&gt;Applies to:&lt;/b&gt; Define &amp;amp; Create; Manage &amp;amp; Protect; Share &amp;amp; Use.&lt;br&gt;&lt;br&gt;&lt;b&gt;Lead / decisions:&lt;/b&gt; Producing asset owner, consulting affected consumer owners.&lt;br&gt;&lt;br&gt;&lt;b&gt;Evidence:&lt;/b&gt; Versioned contract; consumer register; impact assessment; compatibility results; migration and rollback plan." vertex="1">
+                    <mxGeometry height="240" width="605" x="30" y="596" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-card-04" parent="1" style="rounded=1;arcSize=5;fillColor=#FFF0E5;strokeColor=#D97C37;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="320" width="635" x="670" y="535" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-badge-04" parent="1" style="rounded=1;arcSize=20;fillColor=#80500D;strokeColor=none;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="C04" vertex="1">
+                    <mxGeometry height="34" width="55" x="682" y="547" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-heading-04" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#80500D;shadow=1;textShadow=1;" value="Asset certification and retirement" vertex="1">
+                    <mxGeometry height="42" width="542" x="748" y="545" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-body-04" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=4;fontFamily=Arial;fontSize=17;fontColor=#80500D;shadow=1;textShadow=1;" value="&lt;b&gt;Purpose:&lt;/b&gt; Make trust status, scope and end-of-life visible.&lt;br&gt;&lt;br&gt;&lt;b&gt;Applies to:&lt;/b&gt; Define &amp;amp; Create; Share &amp;amp; Use; Measure &amp;amp; Improve.&lt;br&gt;&lt;br&gt;&lt;b&gt;Lead / decisions:&lt;/b&gt; Data owner, with steward coordination and custodian execution.&lt;br&gt;&lt;br&gt;&lt;b&gt;Evidence:&lt;/b&gt; Certification checklist; dated approval and scope; status history; deprecation notices; retirement record." vertex="1">
+                    <mxGeometry height="240" width="605" x="685" y="596" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-card-05" parent="1" style="rounded=1;arcSize=5;fillColor=#E7F5E5;strokeColor=#60A350;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="320" width="635" x="15" y="875" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-badge-05" parent="1" style="rounded=1;arcSize=20;fillColor=#285D24;strokeColor=none;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="C05" vertex="1">
+                    <mxGeometry height="34" width="55" x="27" y="887" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-heading-05" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#285D24;shadow=1;textShadow=1;" value="Master and reference data" vertex="1">
+                    <mxGeometry height="42" width="542" x="93" y="885" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-body-05" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=4;fontFamily=Arial;fontSize=17;fontColor=#285D24;shadow=1;textShadow=1;" value="&lt;b&gt;Purpose:&lt;/b&gt; Maintain consistent identities and shared code meanings.&lt;br&gt;&lt;br&gt;&lt;b&gt;Applies to:&lt;/b&gt; Define &amp;amp; Create; Manage &amp;amp; Protect; Share &amp;amp; Use.&lt;br&gt;&lt;br&gt;&lt;b&gt;Lead / decisions:&lt;/b&gt; Named master/reference-data owner, coordinating source owners.&lt;br&gt;&lt;br&gt;&lt;b&gt;Evidence:&lt;/b&gt; Identifier policy; attribute authority map; code-list register; match/merge rules; correction history." vertex="1">
+                    <mxGeometry height="240" width="605" x="30" y="936" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-card-06" parent="1" style="rounded=1;arcSize=5;fillColor=#E7F5E5;strokeColor=#60A350;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="320" width="635" x="670" y="875" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-badge-06" parent="1" style="rounded=1;arcSize=20;fillColor=#285D24;strokeColor=none;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="C06" vertex="1">
+                    <mxGeometry height="34" width="55" x="682" y="887" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-heading-06" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#285D24;shadow=1;textShadow=1;" value="Policy enforcement and evidence" vertex="1">
+                    <mxGeometry height="42" width="542" x="748" y="885" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-body-06" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=4;fontFamily=Arial;fontSize=17;fontColor=#285D24;shadow=1;textShadow=1;" value="&lt;b&gt;Purpose:&lt;/b&gt; Connect written policy to implemented, tested controls.&lt;br&gt;&lt;br&gt;&lt;b&gt;Applies to:&lt;/b&gt; Plan &amp;amp; Govern; Manage &amp;amp; Protect; Measure &amp;amp; Improve.&lt;br&gt;&lt;br&gt;&lt;b&gt;Lead / decisions:&lt;/b&gt; Named policy/control owner; custodians implement and stewards coordinate evidence.&lt;br&gt;&lt;br&gt;&lt;b&gt;Evidence:&lt;/b&gt; Policy-control matrix; enforcement configuration; test results; protected evidence; exception and remediation records." vertex="1">
+                    <mxGeometry height="240" width="605" x="685" y="936" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-card-07" parent="1" style="rounded=1;arcSize=5;fillColor=#EEE8FA;strokeColor=#9E7BCB;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="320" width="635" x="15" y="1215" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-badge-07" parent="1" style="rounded=1;arcSize=20;fillColor=#4C287D;strokeColor=none;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="C07" vertex="1">
+                    <mxGeometry height="34" width="55" x="27" y="1227" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-heading-07" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#4C287D;shadow=1;textShadow=1;" value="External data sharing" vertex="1">
+                    <mxGeometry height="42" width="542" x="93" y="1225" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-body-07" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=4;fontFamily=Arial;fontSize=17;fontColor=#4C287D;shadow=1;textShadow=1;" value="&lt;b&gt;Purpose:&lt;/b&gt; Control data use beyond the immediate organizational boundary.&lt;br&gt;&lt;br&gt;&lt;b&gt;Applies to:&lt;/b&gt; Plan &amp;amp; Govern; Manage &amp;amp; Protect; Share &amp;amp; Use.&lt;br&gt;&lt;br&gt;&lt;b&gt;Lead / decisions:&lt;/b&gt; Asset owner for business permission, with legal, privacy, security and procurement support.&lt;br&gt;&lt;br&gt;&lt;b&gt;Evidence:&lt;/b&gt; Sharing register; due diligence; agreement; transfer controls; periodic review; termination and disposition evidence." vertex="1">
+                    <mxGeometry height="240" width="605" x="30" y="1276" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-card-08" parent="1" style="rounded=1;arcSize=5;fillColor=#EEE8FA;strokeColor=#9E7BCB;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="320" width="635" x="670" y="1215" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-badge-08" parent="1" style="rounded=1;arcSize=20;fillColor=#4C287D;strokeColor=none;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="C08" vertex="1">
+                    <mxGeometry height="34" width="55" x="682" y="1227" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-heading-08" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#4C287D;shadow=1;textShadow=1;" value="AI data governance" vertex="1">
+                    <mxGeometry height="42" width="542" x="748" y="1225" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-body-08" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=4;fontFamily=Arial;fontSize=17;fontColor=#4C287D;shadow=1;textShadow=1;" value="&lt;b&gt;Purpose:&lt;/b&gt; Ensure data is suitable and permitted for its specific AI use.&lt;br&gt;&lt;br&gt;&lt;b&gt;Applies to:&lt;/b&gt; All five stages.&lt;br&gt;&lt;br&gt;&lt;b&gt;Lead / decisions:&lt;/b&gt; Data owner for data permission and fitness, jointly coordinated with a named AI use-case owner.&lt;br&gt;&lt;br&gt;&lt;b&gt;Evidence:&lt;/b&gt; AI data-use register; provenance and permission records; dataset versions; fitness review; deletion-impact assessment." vertex="1">
+                    <mxGeometry height="240" width="605" x="685" y="1276" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-card-09" parent="1" style="rounded=1;arcSize=5;fillColor=#FCE8EB;strokeColor=#C66A80;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="320" width="635" x="15" y="1555" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-badge-09" parent="1" style="rounded=1;arcSize=20;fillColor=#74273D;strokeColor=none;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="C09" vertex="1">
+                    <mxGeometry height="34" width="55" x="27" y="1567" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-heading-09" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#74273D;shadow=1;textShadow=1;" value="Funding and capacity" vertex="1">
+                    <mxGeometry height="42" width="542" x="93" y="1565" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-body-09" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=4;fontFamily=Arial;fontSize=17;fontColor=#74273D;shadow=1;textShadow=1;" value="&lt;b&gt;Purpose:&lt;/b&gt; Give governance responsibilities realistic operating resources.&lt;br&gt;&lt;br&gt;&lt;b&gt;Applies to:&lt;/b&gt; Plan &amp;amp; Govern; Measure &amp;amp; Improve.&lt;br&gt;&lt;br&gt;&lt;b&gt;Lead / decisions:&lt;/b&gt; Executive sponsor and council for funding decisions; domain owners for domain capacity.&lt;br&gt;&lt;br&gt;&lt;b&gt;Evidence:&lt;/b&gt; Funded roadmap; capacity plan; service cost allocation; prioritized backlog; benefits and workload review." vertex="1">
+                    <mxGeometry height="240" width="605" x="30" y="1616" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-card-10" parent="1" style="rounded=1;arcSize=5;fillColor=#FCE8EB;strokeColor=#C66A80;strokeWidth=1.5;shadow=1;textShadow=1;" value="" vertex="1">
+                    <mxGeometry height="320" width="635" x="670" y="1555" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-badge-10" parent="1" style="rounded=1;arcSize=20;fillColor=#74273D;strokeColor=none;fontFamily=Arial;fontSize=19;fontStyle=1;fontColor=#FFFFFF;shadow=1;textShadow=1;" value="C10" vertex="1">
+                    <mxGeometry height="34" width="55" x="682" y="1567" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-heading-10" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontFamily=Arial;fontSize=23;fontStyle=1;fontColor=#74273D;shadow=1;textShadow=1;" value="Maturity assessment" vertex="1">
+                    <mxGeometry height="42" width="542" x="748" y="1565" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-body-10" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=4;fontFamily=Arial;fontSize=17;fontColor=#74273D;shadow=1;textShadow=1;" value="&lt;b&gt;Purpose:&lt;/b&gt; Use evidence to select the next practical improvement.&lt;br&gt;&lt;br&gt;&lt;b&gt;Applies to:&lt;/b&gt; Measure &amp;amp; Improve; Plan &amp;amp; Govern.&lt;br&gt;&lt;br&gt;&lt;b&gt;Lead / decisions:&lt;/b&gt; Council sponsors; domain owners provide evidence; appropriate reviewers challenge results.&lt;br&gt;&lt;br&gt;&lt;b&gt;Evidence:&lt;/b&gt; Evidence-based assessment rubric; domain capability profile; prioritized improvement plan; reassessment history." vertex="1">
+                    <mxGeometry height="240" width="605" x="685" y="1616" as="geometry"/>
+                </mxCell>
+                <mxCell id="cap-footer" parent="1" style="text;html=1;whiteSpace=wrap;align=center;fontFamily=Arial;fontSize=15;fontColor=#53616B;shadow=1;textShadow=1;" value="Start with decision rights, risk priorities, contracts and certification. Integrate with existing registers and workflows. See the guide for controls, limitations and verification. Page 1 preserves the supplied image model." vertex="1">
+                    <mxGeometry height="48" width="1280" x="20" y="1910" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
